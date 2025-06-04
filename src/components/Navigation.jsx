@@ -55,7 +55,7 @@ const Navigation = () => {
             onClick={(e) => scrollToSection(e, '#')}
             className="text-[#6c3483] font-serif text-2xl"
           >
-            Patry
+            Patry Esencia
           </a>
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
