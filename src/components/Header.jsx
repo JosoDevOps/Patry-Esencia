@@ -57,8 +57,7 @@ const Header = () => {
             </div>
             
             {/* Main image container with enhanced ethereal glow */}
-            <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
-                  <img
+                <div className="relative w-80 h-80 md:w-96 md:h-96 mx-auto rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">                  <img
                     src="/images/artist-portrait.jpeg"
                     alt="Patry - Médium y Canal Espiritual"
                     className="w-full h-full object-cover"
