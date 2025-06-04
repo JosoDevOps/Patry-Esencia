@@ -1,5 +1,4 @@
 // src/components/Services.jsx
-import React from 'react';
 
 const ServiceCard = ({ icon, title, description, price }) => {
   return (
