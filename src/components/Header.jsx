@@ -60,7 +60,7 @@ const Header = () => {
             <div className="absolute inset-0 rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#6c3483]/20 to-transparent z-10"></div>
               <img
-                src="/images/artist-portrait.jpg" 
+                src="/images/artist-portrait.jepg" 
                 alt="Patry - Médium y Canal Espiritual"
                 className="w-full h-full object-cover"
               />
