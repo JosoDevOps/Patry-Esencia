@@ -2,10 +2,10 @@
 
 const ServiceCard = ({ icon, title, description, price }) => {
   return (
-    <div className="bg-[#f5f3f7] rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col h-full relative overflow-hidden group hover:-translate-y-1">
+    <div className="bg-[#f0f9ff] rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col h-full relative overflow-hidden group hover:-translate-y-1">
       {/* Subtle celestial background effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#6c3483]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-      <div className="absolute -right-4 -top-4 w-24 h-24 bg-[#b08bc8]/10 rounded-full blur-xl group-hover:scale-150 transition-transform duration-700"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0284c7]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+      <div className="absolute -right-4 -top-4 w-24 h-24 bg-[#7dd3fc]/10 rounded-full blur-xl group-hover:scale-150 transition-transform duration-700"></div>
       
       {/* Icon with enhanced styling */}
       <div className="text-[#6c3483] text-4xl mb-4 relative">{icon}
