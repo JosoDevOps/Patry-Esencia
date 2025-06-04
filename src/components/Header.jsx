@@ -2,10 +2,10 @@
 
 const Header = () => {
   return (
-    <header className="min-h-screen bg-gradient-to-b from-[#f5f3f7] to-[#e6e0ed] py-20 px-4 md:px-12 flex items-center relative">
+    <header className="min-h-screen bg-gradient-to-b from-[#f0f9ff] to-[#e0f2fe] py-20 px-4 md:px-12 flex items-center relative">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
-        <div className="md:w-1/2 text-[#2c3e50] md:ml-auto">
-          <h1 className="font-serif text-5xl md:text-6xl mb-6 text-[#6c3483]">
+        <div className="md:w-1/2 text-[#0c4a6e] md:ml-auto">
+          <h1 className="font-serif text-5xl md:text-6xl mb-6 text-[#0284c7]">
             Patry Esencia
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-serif italic text-[#4a235a]">
@@ -18,21 +18,21 @@ const Header = () => {
             A través de sesiones individuales y grupales, ofrezco lecturas y canalizaciones que proporcionan orientación espiritual y claridad en momentos de incertidumbre. Con sensibilidad, respeto y ética profesional, mi trabajo busca aportar luz a quienes buscan entender sus experiencias más allá del plano físico.
           </p>
           <div className="flex space-x-4 mt-8">
-            <a href="#contact" className="px-6 py-3 bg-[#6c3483] text-white rounded-md hover:bg-[#4a235a] transition-colors duration-300 shadow-lg">Contactar</a>
-            <a href="#services" className="px-6 py-3 border border-[#6c3483] text-[#6c3483] rounded-md hover:bg-[#6c3483] hover:text-white transition-colors duration-300 shadow-lg">Servicios</a>
+            <a href="#contact" className="px-6 py-3 bg-[#14b8a6] text-white rounded-md hover:bg-[#4a235a] transition-colors duration-300 shadow-lg">Contactar</a>
+            <a href="#services" className="px-6 py-3 border border-[#14b8a6] text-[#14b8a6] rounded-md hover:bg-[#14b8a6] hover:text-white transition-colors duration-300 shadow-lg">Servicios</a>
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-[300px] h-[400px] md:w-[400px] md:h-[500px]">
             {/* Enhanced celestial effects */}
-            <div className="absolute inset-[-40px] rounded-full bg-gradient-to-r from-[#b08bc8]/40 via-[#e6e0ed]/30 to-[#6c3483]/30 blur-xl animate-pulse"></div>
+            <div className="absolute inset-[-40px] rounded-full bg-gradient-to-r from-[#7dd3fc]/40 via-[#e0f2fe]/30 to-[#14b8a6]/30 blur-xl animate-pulse"></div>
             
             {/* Celestial symbols and light sparkles */}
             <div className="absolute inset-[-30px] rounded-full">
               {[...Array(24)].map((_, i) => (
                 <div
                   key={i}
-                  className="absolute w-2 h-2 bg-white rounded-full shadow-lg shadow-[#b08bc8]/40"
+                  className="absolute w-2 h-2 bg-white rounded-full shadow-lg shadow-[#7dd3fc]/40"
                   style={{
                     left: `${Math.random() * 100}%`,
                     top: `${Math.random() * 100}%`,
@@ -48,7 +48,7 @@ const Header = () => {
                   {[...Array(12)].map((_, i) => (
                     <div 
                       key={i} 
-                      className="absolute top-1/2 left-1/2 h-full w-[1px] bg-gradient-to-t from-transparent via-[#b08bc8] to-transparent"
+                      className="absolute top-1/2 left-1/2 h-full w-[1px] bg-gradient-to-t from-transparent via-[#7dd3fc] to-transparent"
                       style={{ transform: `rotate(${i * 30}deg)` }}
                     ></div>
                   ))}
@@ -57,7 +57,7 @@ const Header = () => {
             </div>
             
             {/* Main image container with enhanced ethereal glow */}
-              <div className="relative w-[70vw] max-w-[400px] aspect-square mx-auto rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
+              <div className="relative w-[70vw] max-w-[400px] aspect-square mx-auto rounded-full overflow-hidden border-[8px] border-[#0284c7]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
                   <img
                     src="/images/artist-portrait.jpeg"
                     alt="Patry - Médium y Canal Espiritual"
