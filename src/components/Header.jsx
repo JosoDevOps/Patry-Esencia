@@ -57,14 +57,15 @@ const Header = () => {
             </div>
             
             {/* Main image container with enhanced ethereal glow */}
-            <div className="absolute inset-0 rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#6c3483]/20 to-transparent z-10"></div>
-              <img
-                src="/images/artist-portrait.jpeg" 
-                alt="Patry - Médium y Canal Espiritual"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-[8px] border-[#6c3483]/60 transform hover:scale-105 transition-transform duration-300 shadow-2xl">
+                  <img
+                    src="/images/artist-portrait.jpeg"
+                    alt="Patry - Médium y Canal Espiritual"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-tr from-[#6c3483]/20 to-transparent z-10 rounded-full"></div>
+                </div>
+
           </div>
         </div>
       </div>
