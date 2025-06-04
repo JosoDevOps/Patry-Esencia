@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Ubicación</h4>
-                  <p>Sesiones presenciales en Madrid<br />Consultas online para todo el mundo</p>
+                  <p>Consultas online para todo el mundo</p>
                 </div>
               </div>
             </div>
