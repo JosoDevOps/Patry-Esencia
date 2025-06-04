@@ -7,12 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'purple': {
-          light: '#b08bc8',
-          DEFAULT: '#6c3483',
-          dark: '#4a235a',
+        'blue': {
+          light: '#7dd3fc',  /* light blue */
+          DEFAULT: '#0284c7', /* medium blue */
+          dark: '#075985',    /* dark blue */
         },
-        'misty': '#f5f3f7',
+        'turquoise': {
+          light: '#5eead4',  /* light turquoise */
+          DEFAULT: '#14b8a6', /* medium turquoise */
+          dark: '#0f766e',    /* dark turquoise */
+        },
+        'misty': '#f0f9ff',  /* very light sky blue */
       },
       fontFamily: {
         'serif': ['Cormorant Garamond', 'serif'],

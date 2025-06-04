@@ -4,11 +4,14 @@
 @tailwind utilities;
 
 :root {
-  --color-purple: #00eeff;
-  --color-light-purple: #5cf4ff;
-  --color-dark-purple: #0095ff;
-  --color-misty: #f5f3f7;
-  --color-dark: #143f6a;
+  --color-blue: #0284c7;
+  --color-light-blue: #7dd3fc;
+  --color-dark-blue: #075985;
+  --color-turquoise: #14b8a6;
+  --color-light-turquoise: #5eead4;
+  --color-dark-turquoise: #0f766e;
+  --color-misty: #f0f9ff;
+  --color-dark: #0c4a6e;
 }
 
 body {
@@ -34,12 +37,13 @@ h1, h2, h3, h4, h5, .font-serif {
 ::-webkit-scrollbar-thumb {
   border-radius: 25px;
   transition: all 0.3s;
-  background-color: rgba(52, 69, 131, 0.2);
+  background-color: rgba(2, 132, 199, 0.2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(52, 72, 131, 0.4);
+  background-color: rgba(2, 132, 199, 0.4);
 }
+
 
 /* Smooth transitions */
 * {
