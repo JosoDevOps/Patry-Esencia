@@ -1,0 +1,90 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-purple: #6c3483;
+  --color-light-purple: #b08bc8;
+  --color-dark-purple: #4a235a;
+  --color-misty: #f5f3f7;
+  --color-dark: #2c3e50;
+}
+
+body {
+  background-color: var(--color-misty);
+  color: var(--color-dark);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  transition: all 0.3s;
+  background-color: rgba(108, 52, 131, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(108, 52, 131, 0.4);
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
