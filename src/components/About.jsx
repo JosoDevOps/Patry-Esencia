@@ -14,7 +14,7 @@ const About = () => {
             {/* Main image */}
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/images/featured-1.jpg" 
+                src="/images/artist-portrait.jpeg" 
                 alt="Patry en meditación" 
                 className="w-full h-auto object-cover"
               />
