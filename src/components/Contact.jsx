@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
@@ -17,14 +16,14 @@ const Contact = () => {
               inView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            <h2 className="text-4xl font-serif text-[#6c3483] mb-6">Contacta Conmigo</h2>
-            <p className="mb-8 text-lg">
+            <h2 className="text-4xl font-serif text-turquoise mb-6">Contacta Conmigo</h2>
+            <p className="mb-8 text-lg text-dark">
               ¿Tienes alguna pregunta o deseas concertar una sesión? Estoy aquí para ayudarte en tu camino espiritual.
             </p>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
-                <div className="text-[#6c3483] mr-4">
+                <div className="text-turquoise mr-4">
                   <i className="fas fa-phone-alt text-xl"></i>
                 </div>
                 <div>
@@ -34,7 +33,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="text-[#6c3483] mr-4">
+                <div className="text-turquoise mr-4">
                   <i className="fas fa-map-marker-alt text-xl"></i>
                 </div>
                 <div>
@@ -45,16 +44,16 @@ const Contact = () => {
             </div>
             
             <div className="flex space-x-4 mb-8">
-              <a href="https://www.instagram.com/patry_esencia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#6c3483] text-white flex items-center justify-center hover:bg-[#4a235a] transition-colors">
+              <a href="https://www.instagram.com/patry_esencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://www.facebook.com/profile.php?id=61573873631675&rdid=58AC6y6xeIuRymyH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18WSBj3MQZ%2F#" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#6c3483] text-white flex items-center justify-center hover:bg-[#4a235a] transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61573873631675" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="https://youtube.com/@patryesencia?si=VVyN1FxqGyV821ju" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#6c3483] text-white flex items-center justify-center hover:bg-[#4a235a] transition-colors">
+              <a href="https://youtube.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
                 <i className="fab fa-youtube"></i>
               </a>
-              <a href="https://www.tiktok.com/@patryesencia?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#6c3483] text-white flex items-center justify-center hover:bg-[#4a235a] transition-colors">
+              <a href="https://www.tiktok.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
                 <i className="fab fa-tiktok"></i>
               </a>
             </div>
@@ -68,22 +67,22 @@ const Contact = () => {
             }`}
           >
             <div className="text-center mb-6">
-              <div className="w-20 h-20 bg-[#e1f3e1] rounded-full mx-auto flex items-center justify-center mb-4">
+              <div className="w-20 h-20 bg-misty rounded-full mx-auto flex items-center justify-center mb-4">
                 <i className="fab fa-whatsapp text-4xl text-[#25D366]"></i>
               </div>
-              <h3 className="text-2xl font-serif text-[#6c3483]">Contacta por WhatsApp</h3>
-              <p className="text-gray-600 mt-2">Respuesta rápida y directa para consultas y reservas</p>
+              <h3 className="text-2xl font-serif text-turquoise">Contacta por WhatsApp</h3>
+              <p className="text-dark/70 mt-2">Respuesta rápida y directa para consultas y reservas</p>
             </div>
             
             <div className="space-y-4 mb-6">
-              <div className="bg-gray-50 p-4 rounded-lg">
+              <div className="bg-misty p-4 rounded-lg">
                 <h4 className="font-medium">Horario de atención</h4>
-                <p className="text-gray-600">Lunes a Viernes: 10:00 - 19:00<br />Sábados: 10:00 - 14:00</p>
+                <p className="text-dark/70">Lunes a Viernes: 10:00 - 19:00<br />Sábados: 10:00 - 14:00</p>
               </div>
               
-              <div className="bg-gray-50 p-4 rounded-lg">
+              <div className="bg-misty p-4 rounded-lg">
                 <h4 className="font-medium">Servicios disponibles</h4>
-                <p className="text-gray-600">Consultas personalizadas, programación de sesiones, información sobre tarifas y más.</p>
+                <p className="text-dark/70">Consultas personalizadas, programación de sesiones, información sobre tarifas y más.</p>
               </div>
             </div>
             

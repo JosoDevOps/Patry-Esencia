@@ -1,16 +1,13 @@
-// src/components/Testimonials.jsx
-import React from 'react';
-
 const TestimonialCard = ({ name, location, text }) => {
   return (
-    <div className="bg-[#f5f3f7] rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
+    <div className="bg-base rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
       <div className="mb-4">
         <div>
-          <h4 className="font-medium text-[#4a235a]">{name}</h4>
-          <p className="text-sm text-[#2c3e50]/70">{location}</p>
+          <h4 className="font-medium text-secondary/90">{name}</h4>
+          <p className="text-sm text-dark/70">{location}</p>
         </div>
       </div>
-      <p className="text-[#2c3e50] italic">"{text}"</p>
+      <p className="text-dark italic">"{text}"</p>
       <div className="mt-4 text-[#b08bc8]">
         <span>★★★★★</span>
       </div>
@@ -54,21 +51,21 @@ const Testimonials = () => {
 
   return (
     <div className="container mx-auto">
-      <h2 className="text-4xl font-serif text-center text-[#6c3483] mb-4">Testimonios</h2>
-      <p className="text-center max-w-2xl mx-auto mb-10 text-[#2c3e50]">
+      <h2 className="text-4xl font-serif text-center text-secondary mb-4">Testimonios</h2>
+      <p className="text-center max-w-2xl mx-auto mb-10 text-dark">
         Descubre las experiencias de personas que han conectado con el mundo espiritual a través de mi guía.
       </p>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}
       </div>
-      
+
       <div className="text-center mt-12">
         <a 
           href="#contact" 
-          className="inline-block px-6 py-3 bg-[#6c3483] text-white rounded-md hover:bg-[#4a235a] transition-colors duration-300 shadow-lg"
+          className="inline-block px-6 py-3 bg-secondary text-white rounded-md hover:bg-secondary/90 transition-colors duration-300 shadow-lg"
         >
           Reserva tu sesión
         </a>
