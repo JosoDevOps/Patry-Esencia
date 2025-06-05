@@ -7,26 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Escalas cromáticas base
-        blue: {
-          light: '#7dd3fc',
-          DEFAULT: '#0284c7',
-          dark: '#075985',
-        },
-        turquoise: {
-          light: '#5eead4',
-          DEFAULT: '#14b8a6',
-          dark: '#0f766e',
-        },
-
-        // Alias de uso directo
-        primary: '#0284c7',
-        accent: '#14b8a6',
-        secondary: '#0f766e', // un turquesa oscuro (más místico)
-        'light-blue': '#7dd3fc',
-        'soft-turquoise': '#e0f2fe',
-        'light-bg': '#f0f9ff',
-        dark: '#0c4a6e',
+        primary: '#0284c7',         // azul medio
+        accent: '#14b8a6',          // turquesa vibrante
+        secondary: '#0f766e',       // turquesa oscuro
+        'light-blue': '#7dd3fc',    // azul claro para brillos
+        'soft-turquoise': '#e0f2fe',// azul muy suave (fondos)
+        'light-bg': '#f0f9ff',      // fondo celestial
+        dark: '#0c4a6e',            // azul profundo (textos)
       },
       fontFamily: {
         serif: ['Cormorant Garamond', 'serif'],
