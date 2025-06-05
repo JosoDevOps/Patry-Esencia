@@ -22,7 +22,7 @@ export default {
         // Alias de uso directo
         primary: '#0284c7',
         accent: '#14b8a6',
-        secondary: '#4a235a',
+        secondary: '#0f766e', // un turquesa oscuro (más místico)
         'light-blue': '#7dd3fc',
         'soft-turquoise': '#e0f2fe',
         'light-bg': '#f0f9ff',
