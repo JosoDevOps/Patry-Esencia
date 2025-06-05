@@ -1,3 +1,5 @@
+// src/components/Contact.jsx
+
 import { useInView } from 'react-intersection-observer';
 
 const Contact = () => {
@@ -16,14 +18,14 @@ const Contact = () => {
               inView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            <h2 className="text-4xl font-serif text-turquoise mb-6">Contacta Conmigo</h2>
+            <h2 className="text-4xl font-serif text-accent mb-6">Contacta Conmigo</h2>
             <p className="mb-8 text-lg text-dark">
               ¿Tienes alguna pregunta o deseas concertar una sesión? Estoy aquí para ayudarte en tu camino espiritual.
             </p>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
-                <div className="text-turquoise mr-4">
+                <div className="text-accent mr-4">
                   <i className="fas fa-phone-alt text-xl"></i>
                 </div>
                 <div>
@@ -33,7 +35,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="text-turquoise mr-4">
+                <div className="text-accent mr-4">
                   <i className="fas fa-map-marker-alt text-xl"></i>
                 </div>
                 <div>
@@ -44,16 +46,16 @@ const Contact = () => {
             </div>
             
             <div className="flex space-x-4 mb-8">
-              <a href="https://www.instagram.com/patry_esencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
+              <a href="https://www.instagram.com/patry_esencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-secondary transition-colors">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://www.facebook.com/profile.php?id=61573873631675" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61573873631675" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-secondary transition-colors">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="https://youtube.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
+              <a href="https://youtube.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-secondary transition-colors">
                 <i className="fab fa-youtube"></i>
               </a>
-              <a href="https://www.tiktok.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-turquoise text-white flex items-center justify-center hover:bg-turquoise-dark transition-colors">
+              <a href="https://www.tiktok.com/@patryesencia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center hover:bg-secondary transition-colors">
                 <i className="fab fa-tiktok"></i>
               </a>
             </div>
@@ -70,7 +72,7 @@ const Contact = () => {
               <div className="w-20 h-20 bg-misty rounded-full mx-auto flex items-center justify-center mb-4">
                 <i className="fab fa-whatsapp text-4xl text-[#25D366]"></i>
               </div>
-              <h3 className="text-2xl font-serif text-turquoise">Contacta por WhatsApp</h3>
+              <h3 className="text-2xl font-serif text-accent">Contacta por WhatsApp</h3>
               <p className="text-dark/70 mt-2">Respuesta rápida y directa para consultas y reservas</p>
             </div>
             

@@ -1,3 +1,5 @@
+// src/components/Footer.jsx
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -33,7 +35,7 @@ const Footer = () => {
                   href={link.url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-white hover:text-light-blue transition-colors duration-300"
+                  className="text-white hover:text-accent transition-colors duration-300"
                   aria-label={link.name}
                 >
                   <i className={`${link.icon} text-xl`}></i>
@@ -49,7 +51,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href={link.href} 
-                    className="text-dark/70 hover:text-light-blue transition-colors duration-300"
+                    className="text-dark/70 hover:text-accent transition-colors duration-300"
                   >
                     {link.name}
                   </a>
@@ -68,7 +70,7 @@ const Footer = () => {
                 href="https://wa.me/34641931076"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-light-blue"
+                className="hover:text-accent"
               >
                 +34 641 931 076
               </a>
@@ -81,9 +83,9 @@ const Footer = () => {
         <div className="text-center text-dark/50 text-sm">
           <p>&copy; {currentYear} Patry - Médium y Canal Espiritual. Todos los derechos reservados.</p>
           <p className="mt-2">
-            <a href="#" className="hover:text-light-blue transition-colors duration-300">Política de Privacidad</a>
+            <a href="#" className="hover:text-accent transition-colors duration-300">Política de Privacidad</a>
             {' '}&bull;{' '}
-            <a href="#" className="hover:text-light-blue transition-colors duration-300">Términos y Condiciones</a>
+            <a href="#" className="hover:text-accent transition-colors duration-300">Términos y Condiciones</a>
           </p>
         </div>
       </div>

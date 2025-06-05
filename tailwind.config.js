@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 export default {
   content: [
     "./index.html",
@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0284c7',         // azul medio
-        accent: '#14b8a6',          // turquesa vibrante
-        secondary: '#0f766e',       // turquesa oscuro
-        'light-blue': '#7dd3fc',    // azul claro para brillos
-        'soft-turquoise': '#e0f2fe',// azul muy suave (fondos)
-        'light-bg': '#f0f9ff',      // fondo celestial
-        dark: '#0c4a6e',            // azul profundo (textos)
+        primary: '#0284c7',
+        accent: '#14b8a6',
+        secondary: '#0f766e',
+        'light-blue': '#7dd3fc',
+        'soft-turquoise': '#e0f2fe',
+        'light-bg': '#f0f9ff',
+        dark: '#0c4a6e',
       },
       fontFamily: {
         serif: ['Cormorant Garamond', 'serif'],

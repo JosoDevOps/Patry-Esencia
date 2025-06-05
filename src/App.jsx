@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import About from './components/About';
@@ -48,12 +47,12 @@ const App = () => {
         ))}
         
         {/* Subtle light rays */}
-        <div className="absolute top-0 left-1/4 w-1/2 h-screen bg-gradient-to-b from-[#b08bc8]/10 to-transparent transform -rotate-45"></div>  // puedes dejarlo así o definir este lila como color en Tailwind si quieres reutilizarlo
-        <div className="absolute top-0 right-1/4 w-1/2 h-screen bg-gradient-to-b from-secondary/10 to-transparent transform rotate-45"></div>
+        <div className="absolute top-0 left-1/4 w-1/2 h-screen bg-gradient-to-b from-accent/10 to-transparent transform -rotate-45"></div>
+        <div className="absolute top-0 right-1/4 w-1/2 h-screen bg-gradient-to-b from-accent/10 to-transparent transform rotate-45"></div>
       </div>
       
       <Navigation />
-      <section id="home" className="pt-16"> {/* Added padding-top to fix navbar overlap */}
+      <section id="home" className="pt-16">
         <Header />
       </section>
       <section id="services" className="py-16 px-4 md:px-12 bg-white">
@@ -73,7 +72,8 @@ const App = () => {
       {/* Back to Top Button */}
       <button 
         onClick={scrollToTop} 
-        className={`fixed bottom-6 right-6 z-50 p-3 rounded-full bg-secondary text-white shadow-lg hover:bg-secondary/80 transition-all duration-300 ${showBackToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}        aria-label="Volver arriba"
+        className={`fixed bottom-6 right-6 z-50 p-3 rounded-full bg-accent text-white shadow-lg hover:bg-accent/80 transition-all duration-300 ${showBackToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}
+        aria-label="Volver arriba"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
