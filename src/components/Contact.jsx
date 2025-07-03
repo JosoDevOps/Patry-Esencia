@@ -78,8 +78,9 @@ const Contact = () => {
             
             <div className="space-y-4 mb-6">
               <div className="bg-misty p-4 rounded-lg">
-                <h4 className="font-medium">Horario de atención</h4>
-                <p className="text-dark/70">Lunes a Viernes: 10:00 - 19:00<br />Sábados: 10:00 - 14:00</p>
+                <h4 className="font-medium">Horarios para citas</h4>
+                <p className="text-dark/70">de lunes a viernes mañanas de 10 a 13.00h y tardes de 18:00 a 21:00h
+<br />Para cualquier consulta de lunes a viernes en horario de 10:00 a 19:00</p>
               </div>
               
               <div className="bg-misty p-4 rounded-lg">

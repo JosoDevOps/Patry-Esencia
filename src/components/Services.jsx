@@ -1,5 +1,7 @@
 // src/components/Services.jsx
 
+import { duration } from "@mui/material";
+
 const ServiceCard = ({ icon, title, description, price }) => {
   return (
     <div className="bg-misty rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col h-full relative overflow-hidden group hover:-translate-y-1">
@@ -44,25 +46,41 @@ const Services = () => {
       icon: "✨",
       title: "Lectura Individual",
       description: "Una sesión personalizada donde conecto con guías y seres queridos que han pasado al otro plano para recibir mensajes y orientación específica para tu situación actual.",
-      price: "Desde 80€"
+      price: "50€",
+      duration: "40-60 minutos"
     },
     {
       icon: "🔮",
-      title: "Sesiones Grupales",
-      description: "Experiencias colectivas donde los participantes reciben mensajes del más allá. Un espacio seguro para conectar con energías y recibir orientación espiritual compartida.",
-      price: "Desde 40€ por persona"
+      title: "Mediumnidad con 2 mediums",
+      description: "Experiencias con dos mediums que recibimos mensajes del más allá. Conectamos con guías y seres queridos que han pasado al otro plano para recibir mensajes y recibir orientación espiritual por dos vías.",
+      price: "80€",
+      duration: "40-60 minutos"
     },
     {
       icon: "🌟",
-      title: "Limpieza Energética",
+      title: "Rituales y limpieza Energética",
       description: "Proceso de purificación para eliminar energías negativas de personas o espacios, restaurando el equilibrio y permitiendo que la energía positiva fluya libremente.",
-      price: "Desde 60€"
+      price: "Desde 20€",
+      disclaimer: "Los precios pueden variar según el tipo de ritual y la complejidad del caso."
     },
     {
       icon: "🧿",
       title: "Mentoría Espiritual",
       description: "Acompañamiento personalizado para desarrollar tus propias habilidades intuitivas y espirituales, con ejercicios prácticos y orientación continua.",
       price: "Consultar precios"
+    },
+    {
+      icon: "🕊️",
+      title: "Lectura de Registros Akáshicos",
+      description: "Acceso a la información del alma y su historia a través de los Registros Akáshicos, proporcionando claridad y comprensión sobre tu propósito y camino espiritual.",
+      price: "Consultar precios"
+    },
+    {
+      icon: "🌌",
+      title: "Lectura y sanación con pendulo",
+      description: "Utilizo el péndulo para diagnosticar y sanar bloqueos energéticos, proporcionando una herramienta poderosa para la sanación personal y espiritual.",
+      price: "Desde 15€",
+      duration: "30 minutos"
     }
   ];
 

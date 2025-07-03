@@ -4,7 +4,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         <div className="md:w-1/2 text-dark md:ml-auto">
           <h1 className="font-serif text-5xl md:text-6xl mb-6 text-primary">
-            Patry Esencia
+            Medium Patry Esencia
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-serif italic text-secondary">
             "Conectando con lo invisible, traduciendo mensajes del más allá"
