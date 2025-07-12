@@ -44,8 +44,8 @@ const Services = () => {
   const services = [
     {
       icon: "✨",
-      title: "Lectura Individual",
-      description: "Una sesión personalizada donde conecto con guías y seres queridos que han pasado al otro plano para recibir mensajes y orientación específica para tu situación actual.",
+      title: "Sesión Mediumnidad",
+      description: "Una sesión personalizada donde conecto con guías , seres queridos y mascotas que han pasado al otro plano para recibir mensajes y orientación específica para tu situación actual.",
       price: "50€",
       duration: "40-60 minutos"
     },

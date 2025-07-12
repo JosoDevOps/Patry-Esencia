@@ -98,6 +98,15 @@ const Contact = () => {
               <i className="fab fa-whatsapp text-xl"></i>
               Contactar por WhatsApp
             </a>
+            <a
+              href="https://calendly.com/patryesencia/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full mt-4 px-6 py-4 bg-accent text-white rounded-md hover:bg-secondary transition-colors duration-300 shadow-lg flex items-center justify-center gap-2 font-medium"
+            >
+              <i className="fas fa-calendar-alt text-xl"></i>
+              Reservar sesión
+            </a>  
           </div>
         </div>
       </div>
